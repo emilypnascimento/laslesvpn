@@ -3,7 +3,7 @@
   top: 0;
   z-index: 10;
   background: #ffffff;
-font-family: 'Rubik';
+  font-family: 'Rubik';
 
   &__inner {
     display: grid;
@@ -13,11 +13,6 @@ font-family: 'Rubik';
     height: 80px;
     margin: 0 auto;
     padding: 0 24px;
-  }
-
-  &__logo {
-    display: inline-flex;
-    justify-self: start;
   }
 
   &__logo-img {
