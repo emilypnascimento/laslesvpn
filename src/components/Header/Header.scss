@@ -1,0 +1,144 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #ffffff;
+font-family: 'Rubik';
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    max-width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  &__logo {
+    display: inline-flex;
+    justify-self: start;
+  }
+
+  &__logo-img {
+    height: 40px;
+    width: auto;
+  }
+
+
+  &__nav {
+    display: contents;
+  }
+
+  &__list {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+      color: #4d4d4d;
+      font-weight: 400;
+      text-decoration: none;
+
+      &:hover {
+        color: #f53838;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    gap: 24px;
+  }
+
+  /* Sign In*/
+  &__auth {
+    color: #0B132A;
+    font-weight: 500;
+
+    /* Sign Up*/
+    &--outline {
+      padding: 10px 28px;
+      color: #F53855;
+      background: transparent;
+      border: 2px solid #F53855;
+      border-radius: 50px;
+    }
+  }
+
+  &__toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+
+  &__toggle-bar,
+  &__toggle-bar::before,
+  &__toggle-bar::after {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 0 auto;
+    background: #1c1c1c;
+    content: '';
+  }
+
+  &__toggle-bar {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: -7px;
+    }
+
+    &::after {
+      position: absolute;
+      top: 7px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__toggle {
+      display: block;
+    }
+
+    &__nav {
+      display: none;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      padding: 24px;
+      background: #ffffff;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+
+      &--open {
+        display: flex;
+      }
+    }
+
+    &__list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__actions {
+      flex-direction: column;
+    }
+  }
+}
