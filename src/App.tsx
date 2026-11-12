@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Features from './components/Features/Features';
 import Pricing from './components/Pricing/Pricing';
+import Network from './components/Network/Network';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <About/>
       <Features/>
       <Pricing/>
+      <Network/>
     </>
   );
 }
