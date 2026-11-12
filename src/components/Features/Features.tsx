@@ -1,4 +1,5 @@
 import featuresImage from '../../assets/images/Features.png';
+import checkIcon from '../../assets/images/Check.svg';
 
 export default function Features() {
     return (
@@ -10,6 +11,24 @@ export default function Features() {
                         You can explore the features that we provide with fun and have their own
                         functions each feature.
                     </p>
+                    <ul className='features__list'>
+                        <li>
+                            <img src={checkIcon} alt='check' />
+                            Powerfull online protection.
+                        </li>
+                        <li>
+                            <img src={checkIcon} alt='check' />
+                            Internet without borders.
+                        </li>
+                        <li>
+                            <img src={checkIcon} alt='check' />
+                            Supercharged VPN
+                        </li>
+                        <li>
+                            <img src={checkIcon} alt='check' />
+                            No specific time limits.
+                        </li>
+                    </ul>
                 </div>
                 <img
                     className='features__image'
