@@ -11,3 +11,11 @@
     @content;
   }
 }
+
+@mixin section-padding {
+  padding: 96px 0;
+
+  @include mobile {
+    padding: 56px 0;
+  }
+}
