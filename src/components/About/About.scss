@@ -1,0 +1,56 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.about {
+  padding-bottom: 96px;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: $color-white;
+    border-radius: 12px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.08);
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 16px;
+
+    &:not(:last-child) {
+      border-right: 1px solid #eeeeee;
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background: #ffecec;
+    border-radius: 50%;
+  }
+
+  &__value {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: $color-heading;
+  }
+
+  &__label {
+    font-size: 1.125rem;
+  }
+
+  @include mobile {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+
+    &__item:not(:last-child) {
+      border-right: 0;
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+}
