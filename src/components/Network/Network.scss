@@ -1,0 +1,9 @@
+@use '../../styles/mixins' as *;
+
+.network {
+  @include section-padding;
+
+  &__image {
+    margin: 0 auto;
+  }
+}
