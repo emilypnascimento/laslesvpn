@@ -1,4 +1,5 @@
 import starIcon from '../../assets/images/Star.svg';
+import './TestimonialCard.scss'
 
 type TestimonialCardProps = {
     photo: string;

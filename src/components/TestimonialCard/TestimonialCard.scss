@@ -1,0 +1,38 @@
+@use '../../styles/variables' as *;
+
+.testimonial-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding: 32px;
+  background: $color-white;
+  border: 1px solid #eeeeee;
+  border-radius: $radius;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+
+  &__person {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 56px;
+  }
+
+  &__photo {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  &__role {
+    font-size: 0.875rem;
+  }
+}
