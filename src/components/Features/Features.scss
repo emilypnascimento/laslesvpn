@@ -1,0 +1,42 @@
+@use '../../styles/mixins' as *;
+
+.features {
+  @include section-padding;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 48px;
+
+    @include tablet {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  &__content p {
+    margin-bottom: 32px;
+  }
+
+  &__list {
+    display: grid;
+    gap: 16px;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
