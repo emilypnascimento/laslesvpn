@@ -15,13 +15,12 @@ export default function Hero() {
                     </p>
                     <span className='hero__cta'>Get Started</span>
                 </div>
+                <img
+                    className='hero__image'
+                    src={heroImage}
+                    alt='Ilustração de uma pessoa usando o notebook com a LaslesVPN'
+                />
             </div>
-
-            <img
-                className='hero__image'
-                src={heroImage}
-                alt='Ilustração de uma pessoa usando o notebook com a LaslesVPN'
-            />
         </section>
     );
 }
