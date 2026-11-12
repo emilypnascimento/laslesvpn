@@ -78,4 +78,9 @@
       height: 15px;
     }
   }
+    &__select {
+    @include red-box;
+    margin-top: auto;
+    padding: 12px 40px;
+  }
 }
