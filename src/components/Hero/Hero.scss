@@ -2,11 +2,7 @@
 @use '../../styles/variables' as *;
 
 .hero {
-  padding: 96px 0;
-
-  @include mobile {
-    padding: 56px 0;
-  }
+  @include section-padding;
 
   &__inner {
     display: grid;
