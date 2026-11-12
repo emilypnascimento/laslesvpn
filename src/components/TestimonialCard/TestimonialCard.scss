@@ -35,4 +35,20 @@
   &__role {
     font-size: 0.875rem;
   }
+
+  &__rating {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    color: $color-heading;
+
+    img {
+        width: 16px;
+        height: 16px;
+    }
+}
 }
