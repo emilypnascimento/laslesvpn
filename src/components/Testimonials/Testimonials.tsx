@@ -3,6 +3,7 @@ import viezhPhoto from '../../assets/images/Viezh.png';
 import yessicaPhoto from '../../assets/images/Yessica.png';
 import kimPhoto from '../../assets/images/Kim.png';
 import { useState } from 'react';
+import './Testimonials.scss'
 
 export default function Testimonials() {
   const [page, setPage] = useState(0);

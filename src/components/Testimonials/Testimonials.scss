@@ -1,0 +1,30 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.testimonials {
+  @include section-padding;
+
+  /* esconde as páginas que estão fora da tela; o padding evita cortar a sombra */
+  &__viewport {
+    margin: 0 -8px;
+    padding: 8px 8px 32px;
+    overflow: hidden;
+  }
+
+  &__track {
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+
+  /* cada página é um bloco com 3 cartões */
+  &__page {
+    flex: 0 0 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @include tablet {
+      grid-template-columns: 1fr;
+    }
+  }
+}
