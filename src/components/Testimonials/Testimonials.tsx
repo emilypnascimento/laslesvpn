@@ -25,75 +25,77 @@ export default function Testimonials() {
             className='testimonials__track'
             style={{ transform: `translateX(-${page * 100}%)` }}
           >
-            <TestimonialCard
-              photo={viezhPhoto}
-              name='Viezh Robert'
-              role='Warsaw, Poland'
-              rating='4.5'
-              text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
-            />
-            <TestimonialCard
-              photo={yessicaPhoto}
-              name='Yessica Ch  risty'
-              role='Shanxi, China'
-              rating='4.5'
-              text='I like it because I like to travel far and still can connect with high speed.'
-            />
-            <TestimonialCard
-              photo={kimPhoto}
-              name='Kim Young Jou'
-              role='Seoul, South Korea'
-              rating='4.5'
-              text='This is very unusual for my business that currently requires a virtual private network that has high security.'
-            />
-          </div>
+            <div className='testimonials__page'>
+              <TestimonialCard
+                photo={viezhPhoto}
+                name='Viezh Robert'
+                role='Warsaw, Poland'
+                rating='4.5'
+                text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
+              />
+              <TestimonialCard
+                photo={yessicaPhoto}
+                name='Yessica Christy'
+                role='Shanxi, China'
+                rating='4.5'
+                text='I like it because I like to travel far and still can connect with high speed.'
+              />
+              <TestimonialCard
+                photo={kimPhoto}
+                name='Kim Young Jou'
+                role='Seoul, South Korea'
+                rating='4.5'
+                text='This is very unusual for my business that currently requires a virtual private network that has high security.'
+              />
+            </div>
 
-          <div className='testimonials__page'>
-            <TestimonialCard
-              photo={viezhPhoto}
-              name='Viezh Robert'
-              role='Warsaw, Poland'
-              rating='4.5'
-              text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
-            />
-            <TestimonialCard
-              photo={yessicaPhoto}
-              name='Yessica Christy'
-              role='Shanxi, China'
-              rating='4.5'
-              text='I like it because I like to travel far and still can connect with high speed.'
-            />
-            <TestimonialCard
-              photo={kimPhoto}
-              name='Kim Young Jou'
-              role='Seoul, South Korea'
-              rating='4.5'
-              text='This is very unusual for my business that currently requires a virtual private network that has high security.'
-            />
-          </div>
+            <div className='testimonials__page'>
+              <TestimonialCard
+                photo={viezhPhoto}
+                name='Viezh Robert'
+                role='Warsaw, Poland'
+                rating='4.5'
+                text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
+              />
+              <TestimonialCard
+                photo={yessicaPhoto}
+                name='Yessica Christy'
+                role='Shanxi, China'
+                rating='4.5'
+                text='I like it because I like to travel far and still can connect with high speed.'
+              />
+              <TestimonialCard
+                photo={kimPhoto}
+                name='Kim Young Jou'
+                role='Seoul, South Korea'
+                rating='4.5'
+                text='This is very unusual for my business that currently requires a virtual private network that has high security.'
+              />
+            </div>
 
-          <div className='testimonials__page'>
-            <TestimonialCard
-              photo={viezhPhoto}
-              name='Viezh Robert'
-              role='Warsaw, Poland'
-              rating='4.5'
-              text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
-            />
-            <TestimonialCard
-              photo={yessicaPhoto}
-              name='Yessica Christy'
-              role='Shanxi, China'
-              rating='4.5'
-              text='I like it because I like to travel far and still can connect with high speed.'
-            />
-            <TestimonialCard
-              photo={kimPhoto}
-              name='Kim Young Jou'
-              role='Seoul, South Korea'
-              rating='4.5'
-              text='This is very unusual for my business that currently requires a virtual private network that has high security.'
-            />
+            <div className='testimonials__page'>
+              <TestimonialCard
+                photo={viezhPhoto}
+                name='Viezh Robert'
+                role='Warsaw, Poland'
+                rating='4.5'
+                text='Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.'
+              />
+              <TestimonialCard
+                photo={yessicaPhoto}
+                name='Yessica Christy'
+                role='Shanxi, China'
+                rating='4.5'
+                text='I like it because I like to travel far and still can connect with high speed.'
+              />
+              <TestimonialCard
+                photo={kimPhoto}
+                name='Kim Young Jou'
+                role='Seoul, South Korea'
+                rating='4.5'
+                text='This is very unusual for my business that currently requires a virtual private network that has high security.'
+              />
+            </div>
           </div>
         </div>
 
@@ -121,6 +123,6 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
-    </section >
+    </section>
   );
 }
