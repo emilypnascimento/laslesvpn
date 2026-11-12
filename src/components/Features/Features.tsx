@@ -1,10 +1,17 @@
 import featuresImage from '../../assets/images/Features.png';
 import checkIcon from '../../assets/images/Check.svg';
+import './Features.scss'
 
 export default function Features() {
     return (
         <section id='features' className='features'>
             <div className='container features__inner'>
+                <img
+                    className='features__image'
+                    src={featuresImage}
+                    alt='Ilustração de uma pessoa com notebook apresentando os recursos da LaslesVPN'
+                />
+
                 <div className='features__content'>
                     <h2 className='features__title'>We Provide Many Features You Can Use</h2>
                     <p>
@@ -30,11 +37,6 @@ export default function Features() {
                         </li>
                     </ul>
                 </div>
-                <img
-                    className='features__image'
-                    src={featuresImage}
-                    alt='Ilustração de uma pessoa com notebook apresentando os recursos da LaslesVPN'
-                />
             </div>
         </section>
     );

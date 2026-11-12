@@ -19,3 +19,12 @@
     padding: 56px 0;
   }
 }
+
+@mixin red-box {
+  display: inline-block;
+  padding: 16px 48px;
+  background: $color-primary;
+  color: $color-white;
+  font-weight: 700;
+  border-radius: 6px;
+}
