@@ -30,4 +30,24 @@
     padding-top: 24px;
     font-size: 0.875rem;
   }
+    &__title {
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  &__column ul {
+    display: grid;
+    gap: 12px;
+  }
+    &__title {
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  &__column ul {
+    display: grid;
+    gap: 12px;
+  }
 }
