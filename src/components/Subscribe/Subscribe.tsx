@@ -1,10 +1,16 @@
-export default function CallToAction() {
+export default function Subscribe() {
   return (
     <section id='subscribe' className='cta'>
       <div className='container'>
         <div className='cta__box'>
-          <h2 className='cta__title'>Subscribe Now</h2>
-          <p>Subscribe to our newsletter and get the latest offers</p>
+          <div className='cta__content'>
+            <h2 className='cta__title'>
+              Subscribe Now for <br />
+              Get Special Features!
+            </h2>
+            <p>Let's subscribe with us and find the fun.</p>
+          </div>
+          <span className='cta__button'>Subscribe Now</span>
         </div>
       </div>
     </section>
