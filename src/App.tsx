@@ -4,6 +4,9 @@ import About from './components/About/About';
 import Features from './components/Features/Features';
 import Pricing from './components/Pricing/Pricing';
 import Network from './components/Network/Network';
+import Testimonials from './components/Testimonials/Testimonials';
+import Subscribe from './components/Subscribe/Subscribe'
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -15,6 +18,9 @@ export default function App() {
       <Features/>
       <Pricing/>
       <Network/>
+      <Testimonials/>
+      <Subscribe/>
+      <Footer/>
     </>
   );
 }
