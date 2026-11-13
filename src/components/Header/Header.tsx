@@ -12,7 +12,7 @@ const navLinks: NavLink[] = [
     { label: 'Features', href: '#features' },
     { label: 'Pricing', href: '#pricing' },
     { label: 'Testimonials', href: '#testimonials' },
-    { label: 'Help', href: '#help' },
+    { label: 'Subscribe', href: '#subscribe' },
 ];
 
 export default function Header() {
