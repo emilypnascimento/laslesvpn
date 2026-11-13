@@ -1,3 +1,5 @@
+import './Subscribe.scss'
+
 export default function Subscribe() {
   return (
     <section id='subscribe' className='cta'>
