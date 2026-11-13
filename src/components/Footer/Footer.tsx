@@ -1,4 +1,5 @@
 import logo from '../../assets/images/Logo.svg';
+import './Footer.scss'
 
 export default function Footer() {
     return (
@@ -11,6 +12,7 @@ export default function Footer() {
                             LaslesVPN is a private virtual network that has unique features and has high
                             security.
                         </p>
+                        <p className='footer__copy'>©2020LaslesVPN.</p>
                     </div>
                     <div className='footer__column'>
                         <h3 className='footer__title'>Product</h3>
@@ -42,7 +44,6 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <p className='footer__copy'>©2020LaslesVPN.</p>
             </div>
         </footer>
     );
